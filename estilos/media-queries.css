@@ -24,6 +24,13 @@ telas extra grandes: acima de 1200px
         float: right;
         width: 70%;
     }
+    div#formulario > h1{
+    font-size: 1.6em;
+}
+    div#formulario > p{
+    font-size: 1em;
+}
+
 }
 @media screen and (min-width: 992px) {
     body{
