@@ -38,15 +38,18 @@ section#login{
     width: 500px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px #0000007e;
+
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem{
     display: block;
-    background: var(--cor-primaria) url(../imagens/fundo-login.jpg) no-repeat;
+    background: var(--cor-primaria) url(../imagens/fundo-login-medio.jpg) no-repeat;
     background-position: left center;
     background-size: cover;
-    height: 200px;
+    min-height: 120px;
 }
-div#formulario{
+section#login > div#formulario{
     padding: 10px;
     display: block;
 }
